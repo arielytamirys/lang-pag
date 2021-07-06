@@ -1,0 +1,65 @@
+.container-grid{ /*ajuste tamanho do container*/
+    
+    width: 85%;
+
+}
+.menu-header{ /*ajuste pata o menu*/
+    width: 100%;
+}
+
+
+
+.conteudo-info{ /* ajustando imagem na  parte 3 para caber em tablet*/
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.info {
+    height: 600px;
+}
+
+.imagem-sobre{
+    width: 80%;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    justify-content: space-between;
+}
+
+.conteudo-endereço{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 660px;
+    justify-content: space-between;
+}
+
+.conteudo-enderelo h2{
+    align-self: flex-start;
+}
+
+.texto-endereço p {
+
+width: 100%;
+
+}
+
+.texto-sobre{
+    width: 80%;
+}
+
+
+.conteudo-sobre {
+    flex-direction: column;
+    align-items: center;
+}
+
+.mapa{
+
+    position: unset; /* quando quero tirar uma configuraçao que foi feita em outro documento */
+    align-items: center;
+    width: 400px;
+}
+
